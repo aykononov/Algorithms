@@ -1,7 +1,3 @@
-package Algorithms;
-
-// Палиндромом считаются слова, фразы или числа, которые одинаково читаются слева направо и справа налево.
-
 // Проверить, является ли строка Палиндромом.
 class IsPalindrome {
     private String inStr;
@@ -35,7 +31,7 @@ class Palindrom {
         ob4.chk();
     }
 }
-/* --------------------
+/* ---------------------
 100002 : Not Palindrome
 10001 : Palindrome
 радар : Palindrome
