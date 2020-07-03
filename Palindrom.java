@@ -31,7 +31,7 @@ class Palindrom {
         ob4.chk();
     }
 }
-/* ---------------------
+/* --------------------
 100002 : Not Palindrome
 10001 : Palindrome
 радар : Palindrome
