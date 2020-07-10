@@ -1,5 +1,5 @@
 
-public class BubbleSort {
+class BubbleSort {
     public static void main (String [] args) {
         int [] nums = new int [10];
         System.out.print("\nСгенерированный массив: ");
