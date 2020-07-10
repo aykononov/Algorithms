@@ -15,7 +15,7 @@
 >
 ></details>
 
-[Factorial - Определение ФАКТОРИАЛА, используя рекурсию](https://github.com/aykononov/Algorithms/blob/master/Factorial.java)
+[Factorial - Определение ФАКТОРИАЛА (используя рекурсию)](https://github.com/aykononov/Algorithms/blob/master/Factorial.java)
 ><details><summary>Подробнее...</summary>
 >
 >*Факториал натурального числа n* определяется, как произведение всех натуральных чисел от 1 до n включительно.  
