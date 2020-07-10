@@ -1,10 +1,13 @@
 ## Реализация алгоритмов
-[ForEachSearch - Простой поиск методом перебора.](https://github.com/aykononov/Algorithms/blob/master/ForEachSearch.java)
+[ForEachSearch - Простой поиск методом перебора.](https://github.com/aykononov/Algorithms/blob/master/ForEachSearch.java)  
 ><details><summary>Подробнее...</summary>
->Цикл (for each) позволяет просмотреть весь массив.
+
+>Такой метод позволяет просмотреть весь массив в Цикле (for each).   
 >Таким образом можно пройти последовательно по всем элементам до первого совпадения.
 >Важно отметить, что оператор break не предназначен в качестве обычного средства выхода из цикла. Для этого служит условное выражение в цикле. Этот оператор следует использовать для выхода из цикла только в особых случаях.
+
 ></details>
+
 [BubbleSort - Алгоритм пузырьковой сортировки.](https://github.com/aykononov/Algorithms/blob/master/BubbleSort.java)
 ><details><summary>Подробнее...</summary>
 >Алгоритм пузырьковой сортирвки массива целых чисел.
