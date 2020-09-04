@@ -1,10 +1,10 @@
 // Развернуть строку в обратном порядке (используя Лямбда-выражение)
-interface Reversal {
+interface StringFunc {
     String getReversal(String str);
 }
 public class StringReversalLambda {
     public static void main(String[] args) {
-        Reversal strOb = (str) -> {
+        StringFunc reverse = (str) -> {
           String result = "";
           for (int i = str.length()-1; i >= 0; i--) {
               result += str.charAt(i);
@@ -12,7 +12,7 @@ public class StringReversalLambda {
           return result;
         };
 
-        System.out.println("Строка в обратном порядке : " + strOb.getReversal("Строка"));
+        System.out.println("Строка в обратном порядке : " + reverse.getReversal("Строка"));
     }
 }
 /* -------------------------------
