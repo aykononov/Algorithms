@@ -46,7 +46,7 @@
 [StringReversalLambda - Развернуть строку в обратном порядке (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/StringReversalLambda.java)
 ><details><summary>Подробнее...</summary>
 >
->Пример блочного лямбда-выражения. В данном примере программы изменяется на обратный порядок следования символов в строке. 
+>Пример блочного лямбда-выражения. В данном примере программы, строка изменяется на обратный порядок следования символов в этой строке. 
 ></details>
 
 [Palindrom - Пример проверяет, является ли строка Палиндромом](https://github.com/aykononov/Algorithms/blob/master/Palindrom.java)
