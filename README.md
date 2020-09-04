@@ -36,7 +36,7 @@
 >Этот процесс повторяется до тех пор, пока значение n не станет равным 1, после чего начнется возврат из последовательных вызовов метода fасt().  
 ></details>
 
-[Factorial - Определение ФАКТОРИАЛА (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingLambda.java)
+[FactorialUsingLambda - Определение ФАКТОРИАЛА (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingLambda.java)
 ><details><summary>Подробнее...</summary>
 >
 >Пример программы, где блочное Лямбда-выражение применяется для вычисления и возврата факториала целочисленного значения.
