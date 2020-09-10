@@ -1,26 +1,38 @@
-// Поиск определенного элемнта методом полного перебора всех элементов
-// в неупорядоченном массиве с применением цикла foreach
-class SearchBruteForce {
-    public static void main(String[] args){
-        int[] arrs = {1,2,3,4,5}; // исходный массив
-        int find = 6; // число для поиска
-        boolean found = false;
+import java.util.Arrays;
 
-        // Последовательный просмотр каждого элемента до первого совпадения
-        for (int x : arrs) {
-            if (x == find) {
-                found = true;
-                System.out.println("Значение: " + x + " - Найдено.");
-                break; // Прервать поиск
+// Последовательный поиск значения в неупорядоченном массиве (используя цикл foreach)
+class SearchBruteForce {
+
+    // Метод генерации неупорядоченного массива с указанием размерности в параметре
+    private static int[] newArrsRandom (int len) {
+        int[] arrRandom = new int[len];
+        for (int i = 0; i < arrRandom.length; i++) {
+             arrRandom[i] = (int) (i + Math.random() * 10);
+        }
+        return arrRandom;
+    }
+
+    // Метод последовательного поиска
+    private static boolean getSearch (int[] inArrs, int n) {
+        for (int i = 0; i < inArrs.length; i++) {
+            if (n == inArrs[i]) {
+                return true;
             }
         }
-        if (!found) {
-            System.out.println("Значение: " + find + " - НЕ найдено.");
-        }
+        return false;
+    }
 
+    public static void main(String[] args){
+        System.out.println("Создаем массив и выполняем поиск.");
+        int[] arrs = newArrsRandom(10);
+        System.out.println("    Исходный массив: " + Arrays.toString(arrs));
+        System.out.println("Поиск значения  (5): " + getSearch(arrs, 5));
+        System.out.println("Поиск значения (20): " + getSearch(arrs, 20));
     }
 }
-/* ----------------------
-// 6
-Значение: 6 - НЕ найдено.
+/* ------------------------------------------------
+Создаем массив и выполняем поиск.
+    Исходный массив: [8, 1, 6, 10, 5, 7, 7, 16, 10, 13]
+Поиск значения  (5): true
+Поиск значения (20): false
  */

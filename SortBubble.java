@@ -2,13 +2,13 @@ import java.util.Arrays;
 
 class SortBubble {
 
-    // Метод генерации нового массива с указанием размерности в параметре
-    private static int[] newArrsRandom(int len) {
-        int[] arrs = new int[len];
-        for (int i = 0; i < arrs.length; i++) {
-            arrs[i] = (int) (i + Math.random() * 10);
+    // Метод генерации неупорядоченного массива с указанием размерности в параметре
+    private static int[] newArrsRandom (int len) {
+        int[] arrRandom = new int[len];
+        for (int i = 0; i < arrRandom.length; i++) {
+            arrRandom[i] = (int) (i + Math.random() * 10);
         }
-        return arrs;
+        return arrRandom;
     }
 
     // Метод сортировки Пузырьком с параметром типа массив

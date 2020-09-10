@@ -30,14 +30,15 @@ class SearchBinary {
 
     public static void main(String[] args) {
         System.out.println("Создаем массив и выполняем поиск.");
-        System.out.println("Исходный  массив: " + Arrays.toString(newArrSort(10)));
-        System.out.println("Поиск числа  (3): " + getSearchInArr(newArrSort(10), 3));
-        System.out.println("Поиск числа (10): " + getSearchInArr(newArrSort(10), 10));
+        int[] arrs = newArrSort(10);
+        System.out.println("   Исходный  массив: " + Arrays.toString(arrs));
+        System.out.println("Поиск значения  (3): " + getSearchInArr(arrs, 3));
+        System.out.println("Поиск значения (10): " + getSearchInArr(arrs, 10));
     }
 }
-/* ---------------------------------------------
+/* ------------------------------------------------
 Создаем массив и выполняем поиск.
-Исходный  массив: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-Поиск числа  (3): true
-Поиск числа (10): false
+   Исходный  массив: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Поиск значения  (3): true
+Поиск значения (10): false
  */
