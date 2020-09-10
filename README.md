@@ -21,7 +21,7 @@
 >**Наилучший случай: O(1); средний и наихудший случаи: O(log n)**
 ></details>
 
-[SearchSimpleDuplicate - Найти первый дубликат в массиве методом перебора](https://github.com/aykononov/Algorithms/blob/master/SearchSimpleDuplicate.java)  
+[SearchSimpleDuplicate - Найти первый дубликат в массиве простым перебором](https://github.com/aykononov/Algorithms/blob/master/SearchSimpleDuplicate.java)  
 ><details><summary>Подробнее...</summary>
 >
 >Поиск дубликатов в массиве методом простого перебора всех элементов можно реализовать двумя вложенными циклами.  
