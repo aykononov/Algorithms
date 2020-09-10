@@ -1,4 +1,5 @@
-## Реализация алгоритмов
+## Рабочие примеры реализации Алгоритмов на языке ява
+### Working examples of the implementation of Algorithms in Java
 <small>
 
 [SearchBruteForce - Найти элемент в массиве методом перебора](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java)  
