@@ -12,7 +12,7 @@ class SearchBruteForce {
         return arrRandom;
     }
 
-    // Метод последовательного поиска
+    // Метод линейного (последовательного) поиска
     private static boolean getSearch (int[] inArrs, int n) {
         for (int i = 0; i < inArrs.length; i++) {
             if (n == inArrs[i]) {

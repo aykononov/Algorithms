@@ -4,7 +4,7 @@
 <small>
 
 
-><details><summary>Последовательный (линенйный) поиск</summary>
+><details><summary>Линенйный (Последовательный) поиск</summary>
 >
 >*Последовательный поиск (Sequential Search)*, называемый также *линейным поиском*, является самым простым из всех алгоритмов поиска. Это метод поиска одного
  значения t в коллекции С "в лоб". Он находит t, начиная с первого элемента коллекции и исследуя каждый последующий элемент до тех пор, пока не просмотрит всю
@@ -12,7 +12,7 @@
 >
 >**Наилучший случай: O(1); средний и наихудший случаи: О(n)**
 >
->[SearchBruteForce - Последовательный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java) 
+>[SearchBruteForce - Линенйный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java) 
 ></details>
 
 ><details><summary>Подробнее...</summary>
