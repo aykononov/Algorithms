@@ -3,7 +3,7 @@
 ---
 <small>
 
->[SearchBruteForce - Последовательный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java)  
+[SearchBruteForce - Последовательный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java)  
 ><details><summary>Подробнее...</summary>
 >
 >Поиск определенного элемнта методом полного перебора всех элементов в неупорядоченном массиве с применением цикла foreach.
@@ -12,29 +12,29 @@
 >Таким образом можно пройти последовательно по всем элементам до первого совпадения.
 >Важно отметить, что оператор break не предназначен в качестве обычного средства выхода из цикла. Для этого служит условное выражение в цикле. Этот оператор следует использовать для выхода из цикла только в особых случаях.
 ></details>
->
->[SearchBinary - Бинарный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBinary.java)  
+
+[SearchBinary - Бинарный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBinary.java)  
 ><details><summary>Подробнее...</summary>
 >
 >*Бинарный (двоичный) поиск* обеспечивает лучшую производительность, чем *последовательный поиск*, поскольку работает с коллекцией, элементы которой уже *отсортированы*.
 > 
 >**Наилучший случай: O(1); средний и наихудший случаи: O(log n)**
 ></details>
->
->[SearchSimpleDuplicate - Найти первый дубликат в массиве методом перебора](https://github.com/aykononov/Algorithms/blob/master/SearchSimpleDuplicate.java)  
+
+[SearchSimpleDuplicate - Найти первый дубликат в массиве методом перебора](https://github.com/aykononov/Algorithms/blob/master/SearchSimpleDuplicate.java)  
 ><details><summary>Подробнее...</summary>
 >
 >Поиск дубликатов в массиве методом простого перебора всех элементов можно реализовать двумя вложенными циклами.  
 >Временная сложность - O(n²), пространственная сложность —  O(1).
 ></details>
 
->[SortBubble - Алгоритм Пузырьковой сортировки](https://github.com/aykononov/Algorithms/blob/master/SortBubble.java)
+[SortBubble - Алгоритм Пузырьковой сортировки](https://github.com/aykononov/Algorithms/blob/master/SortBubble.java)
 ><details><summary>Подробнее...</summary>
 >
 >Алгоритм пузырьковой сортирвки массива целых чисел.
 ></details>
 
->[FactorialUsingRecursion - Определение ФАКТОРИАЛА (используя рекурсию)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingRecursion.java)
+[FactorialUsingRecursion - Определение ФАКТОРИАЛА (используя рекурсию)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingRecursion.java)
 ><details><summary>Подробнее...</summary>
 >
 >*Факториал натурального числа n* определяется, как произведение всех натуральных чисел от 1 до n включительно.  
@@ -44,15 +44,15 @@
 >Для вычисления этого выражения метод fасt() вызывается со значением n - 1 своего аргумента.  
 >Этот процесс повторяется до тех пор, пока значение n не станет равным 1, после чего начнется возврат из последовательных вызовов метода fасt().  
 ></details>
->
->[FactorialUsingLambda - Определение ФАКТОРИАЛА (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingLambda.java)
+
+[FactorialUsingLambda - Определение ФАКТОРИАЛА (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingLambda.java)
 ><details><summary>Подробнее...</summary>
 >
 >Пример программы, где блочное Лямбда-выражение применяется для вычисления и возврата факториала целочисленного значения.
 >В данном примере программы на то, что в блочном лямбдавыражении объявляется переменная *result*, организуется цикл *for* и указывается оператор *return*. Все эти действия вполне допустимы в теле блочного лямбдавыражения. По существу, тело блока такого выражения аналогично телу метода. Следует также иметь в виду, что когда в лямбда-выражении оказывается оператор *return*, он просто вызывает возврат из самого лямбда-выражения, но не из объемлющего его метода. 
 ></details>
 
->[ReverseStringUsingLambda - Развернуть строку в обратном порядке (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/ReverseStringUsingLambda.java)
+[ReverseStringUsingLambda - Развернуть строку в обратном порядке (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/ReverseStringUsingLambda.java)
 ><details><summary>Подробнее...</summary>
 >
 >В данном примере программы, блочное Лямбда-выражение изменяет строку на обратный порядок следования символов в этой строке.
@@ -61,7 +61,7 @@
  значение типа *String*. Следовательно, в лямбда-выражении *reverse* тип параметра *(str)* должен быть выведен как *String*. Метод *charAt()* вызывается для параметра *(str)*, как для объекта типа *String*. Это вполне допустимо, поскольку тип String этого параметра выводится автоматически.
 ></details>
 
->[Palindrom - Пример проверяет, является ли строка Палиндромом](https://github.com/aykononov/Algorithms/blob/master/Palindrom.java)
+[Palindrom - Пример проверяет, является ли строка Палиндромом](https://github.com/aykononov/Algorithms/blob/master/Palindrom.java)
 ><details><summary>Подробнее...</summary>
 >
 >Палиндромом считаются слова, фразы или числа, которые одинаково читаются слева направо и справа налево.
