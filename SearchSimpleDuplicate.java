@@ -1,9 +1,9 @@
 // Поиск дубликатов в массиве методом простого перебора всех элементов.
 // 1,2,3,4,5 = false
 // 1,2,3,1,5 = true
-class SimpleDuplicateSearch {
+class SearchSimpleDuplicate {
     public static void main(String[] args) {
-        int[] input = {1, 2, 3, 1, 5};
+        int[] input = {1, 2, 3, 1, 5, 1};
         boolean result = containsDuplication(input);
     }
 

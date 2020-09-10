@@ -2,7 +2,7 @@
 interface StringFunc {
     String getReversal(String str);
 }
-public class StringReversalLambda {
+class ReverseStringUsingLambda {
     public static void main(String[] args) {
         StringFunc reverse = (str) -> {
           String result = "";

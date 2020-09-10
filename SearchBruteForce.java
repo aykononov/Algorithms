@@ -1,6 +1,6 @@
 // Поиск определенного элемнта методом полного перебора всех элементов
 // в неупорядоченном массиве с применением цикла foreach
-class ForEachSearch {
+class SearchBruteForce {
     public static void main(String[] args){
         int[] arrs = {1,2,3,4,5}; // исходный массив
         int find = 6; // число для поиска
