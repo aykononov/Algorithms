@@ -3,14 +3,16 @@
 ---
 <small>
 
-[SearchBruteForce - Последовательный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java)  
-><details><summary>Подробнее...</summary>
+
+><details><summary>Последовательный поиск</summary>
 >
 >Поиск определенного элемнта методом полного перебора всех элементов в неупорядоченном массиве с применением цикла foreach.
 >
 >Это простой метод, который позволяет просмотреть весь массив используя цикл foreach.   
 >Таким образом можно пройти последовательно по всем элементам до первого совпадения.
 >Важно отметить, что оператор break не предназначен в качестве обычного средства выхода из цикла. Для этого служит условное выражение в цикле. Этот оператор следует использовать для выхода из цикла только в особых случаях.
+>
+>[SearchBruteForce - Последовательный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java) 
 ></details>
 
 [SearchBinary - Бинарный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBinary.java)  
