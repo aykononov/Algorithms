@@ -1,71 +1,43 @@
 import java.util.Arrays;
 
-// Массив
-class MyArray {
-    private int[] arrs;
-    private int search;
-
-    MyArray() {
-        System.out.print("Массив пуст. ");
-    }
-
-    MyArray(int i) {
-        this.arrs = new int[i];
-        for (int j = 0; j < arrs.length; j++) {
-            this.arrs[j] = (int) (j + Math.random() * 10);
+class SearchBinary {
+    // Метод создает сортированный массив
+    static private int[] newArrSort (int len) {
+        int[] arrSort = new int[len];
+        for (int i = 0; i < arrSort.length; i++) {
+            arrSort[i] = i;
         }
+        return arrSort;
     }
 
-    int[] getArrs() {
-        return this.arrs;
-    }
-
-    int[] sortBubble() {
-        for (int i = 0; i < arrs.length; i++) {
-            for (int j = i + 1; j < arrs.length; j++) {
-                if (arrs[i] > arrs[j]) {
-                    int k = arrs[i];
-                    arrs[i] = arrs[j];
-                    arrs[j] = k;
-                }
-            }
-        }
-        return this.arrs;
-    }
-
-    void searchBinary(int search) {
-        this.search = search;
-        int low = 0;
-        int high = arrs.length;
-        int mid;
-        while (low <= high) {
-            mid = (low + high) / 2;
-            if (this.search < arrs[mid]) {
-                high = mid - 1;
-            } else if (this.search > arrs[mid]) {
-                low = mid + 1;
+    // Метод Бинарного поиска с входящими параметрами
+    static private boolean getSearchInArr (int[] inArrs, int n) {
+        int first = 0;
+        int last = inArrs.length - 1;
+        int i;
+        while (first <= last) {
+            i = (first + last) / 2;
+            if (n < inArrs[i]) {
+                last = i - 1;
+            } else if (n > inArrs[i]) {
+                first = i + 1;
             } else {
-                System.out.printf("Число %d найдено\n", arrs[mid]);
-                break;
-                //return arrs[mid];
+                return true;
             }
         }
-        System.out.println("Поиск окончен.");
-        //return 0;
+        return false;
     }
 
-
-}
-
-class BinarySearch {
-    /*
     public static void main(String[] args) {
-        MyArray arrOb = new MyArray(10);
-        System.out.println("Исходный массив: " + Arrays.toString(arrOb.getArrs()));
-        System.out.println("Отсортированный массив: " + Arrays.toString(arrOb.sortBubble()));
-        arrOb.searchBinary(3);
-        System.out.print("Повторяющийся элементы: " + Arrays.toString(arrOb.searchDuplicate()));
-        //arrOb.searchDuplicate();
-
-    }*/
+        System.out.println("Создаем массив и выполняем поиск.");
+        System.out.println("Исходный  массив: " + Arrays.toString(newArrSort(10)));
+        System.out.println("Поиск числа  (3): " + getSearchInArr(newArrSort(10), 3));
+        System.out.println("Поиск числа (10): " + getSearchInArr(newArrSort(10), 10));
+    }
 }
+/* ---------------------------------------------
+Создаем массив и выполняем поиск.
+Исходный  массив: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Поиск числа  (3): true
+Поиск числа (10): false
+ */

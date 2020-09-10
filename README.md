@@ -1,8 +1,9 @@
-## Рабочие примеры реализации Алгоритмов на языке ява
+## Рабочие примеры реализации Алгоритмов на языке Java
 ### Working examples of the implementation of Algorithms in Java
+---
 <small>
 
->[SearchBruteForce - Найти элемент в массиве методом полного перебора](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java)  
+>[SearchBruteForce - Последовательный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java)  
 ><details><summary>Подробнее...</summary>
 >
 >Поиск определенного элемнта методом полного перебора всех элементов в неупорядоченном массиве с применением цикла foreach.
@@ -11,7 +12,15 @@
 >Таким образом можно пройти последовательно по всем элементам до первого совпадения.
 >Важно отметить, что оператор break не предназначен в качестве обычного средства выхода из цикла. Для этого служит условное выражение в цикле. Этот оператор следует использовать для выхода из цикла только в особых случаях.
 ></details>
-
+>
+>[SearchBinary - Бинарный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBinary.java)  
+><details><summary>Подробнее...</summary>
+>
+>*Бинарный (двоичный) поиск* обеспечивает лучшую производительность, чем *последовательный поиск*, поскольку работает с коллекцией, элементы которой уже *отсортированы*.
+> 
+>**Наилучший случай: O(1); средний и наихудший случаи: O(log n)**
+></details>
+>
 >[SearchSimpleDuplicate - Найти первый дубликат в массиве методом перебора](https://github.com/aykononov/Algorithms/blob/master/SearchSimpleDuplicate.java)  
 ><details><summary>Подробнее...</summary>
 >
@@ -35,7 +44,7 @@
 >Для вычисления этого выражения метод fасt() вызывается со значением n - 1 своего аргумента.  
 >Этот процесс повторяется до тех пор, пока значение n не станет равным 1, после чего начнется возврат из последовательных вызовов метода fасt().  
 ></details>
-
+>
 >[FactorialUsingLambda - Определение ФАКТОРИАЛА (используя Лямбда-выражение)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingLambda.java)
 ><details><summary>Подробнее...</summary>
 >
