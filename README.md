@@ -14,7 +14,7 @@
 >
 >[SearchBruteForce - Линенйный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBruteForce.java) 
 ></details>
-
+>
 ><details><summary>Бинарный (двоичный) поиск...</summary>
 >
 >*Бинарный (двоичный) поиск* обеспечивает лучшую производительность, чем *последовательный поиск*, поскольку работает с коллекцией, элементы которой уже *отсортированы*.
@@ -23,8 +23,7 @@
 >
 >[SearchBinary - Бинарный поиск](https://github.com/aykononov/Algorithms/blob/master/SearchBinary.java)
 ></details>
-
-  
+>
 ><details><summary>Поиск дубликатов...</summary>
 >
 >Поиск дубликатов в массиве методом простого перебора всех элементов можно реализовать двумя вложенными циклами.
@@ -34,14 +33,13 @@
 >[SearchSimpleDuplicate - Найти первый дубликат в массиве простым перебором](https://github.com/aykononov/Algorithms/blob/master/SearchSimpleDuplicate.java)
 ></details>
 
-
 ><details><summary>Алгоритм Пузырьковой сортирвки...</summary>
 >
 >Алгоритм Пузырьковой сортирвки массива целых чисел.
 >
 >[SortBubble - Алгоритм Пузырьковой сортировки](https://github.com/aykononov/Algorithms/blob/master/SortBubble.java)
 ></details>
-
+>
 ><details><summary>Пузырьковая сортировка строк...</summary>
 >
 >Реализация алгоритма Пузырьковой сортирвки для объектов типа String.
@@ -55,8 +53,7 @@
 >
 >[FactorialUsingRecursion - Определение ФАКТОРИАЛА (используя рекурсию)](https://github.com/aykononov/Algorithms/blob/master/FactorialUsingRecursion.java)  
 ></details>
-
-
+>
 ><details><summary>Определение ФАКТОРИАЛА (используя Лямбда-выражение)...</summary>
 >
 >Пример программы, где блочное Лямбда-выражение применяется для вычисления и возврата факториала целочисленного значения.
