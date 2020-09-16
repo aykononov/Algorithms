@@ -35,13 +35,19 @@
 ></details>
 
 
-><details><summary>Алгоритм пузырьковой сортирвки...</summary>
+><details><summary>Алгоритм Пузырьковой сортирвки...</summary>
 >
->Алгоритм пузырьковой сортирвки массива целых чисел.
+>Алгоритм Пузырьковой сортирвки массива целых чисел.
 >
 >[SortBubble - Алгоритм Пузырьковой сортировки](https://github.com/aykononov/Algorithms/blob/master/SortBubble.java)
 ></details>
 
+><details><summary>Пузырьковая сортировка объектов типа String...</summary>
+>
+>Реализация алгоритма Пузырьковой сортирвки для объектов типа String.
+>
+>[SortBoobleString - Пример Пузырьковой сортировки строк](https://github.com/aykononov/Algorithms/blob/master/SortBoobleString.java)
+></details>
 
 ><details><summary>Определение ФАКТОРИАЛА (используя рекурсию)...</summary>
 >
