@@ -42,7 +42,7 @@
 >[SortBubble - Алгоритм Пузырьковой сортировки](https://github.com/aykononov/Algorithms/blob/master/SortBubble.java)
 ></details>
 
-><details><summary>Пузырьковая сортировка объектов типа String...</summary>
+><details><summary>Пузырьковая сортировка строк...</summary>
 >
 >Реализация алгоритма Пузырьковой сортирвки для объектов типа String.
 >
