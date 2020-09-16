@@ -9,7 +9,7 @@ class SortBoobleString {
             "aid", "of", "their", "country"};
 
     // Метод Пузырьковой сортировки строк с учетом регистра compareTo()
-    static String[] getSort(String[] str) {
+    static private String[] getSort(String[] str) {
         for (int i = 0; i < str.length; i++) {
             for (int j = i + 1; j < str.length; j++) {
                 if (str[j].compareTo(str[i]) < 0) {
