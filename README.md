@@ -1,4 +1,5 @@
-## Рабочие примеры реализации Алгоритмов на языке Java
+## Рабочие примеры реализации Алгоритмов на Java
+
 ### Working examples of the implementation of Algorithms in Java
 ---
 <small>
